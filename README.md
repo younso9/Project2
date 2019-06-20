@@ -1,1 +1,1 @@
-# Project III - List Pagination & Filtering
+# Project 2 - List Pagination & Filtering
