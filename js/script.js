@@ -58,6 +58,7 @@ const appendPageLinks = (list) => {
     const links = event.target;
     let number = event.target.textContent;
 
+    //This calls the function to show students per page
     showPage(studentList, number);
 
     //This listens for the behavior of the end user's choice
@@ -65,6 +66,7 @@ const appendPageLinks = (list) => {
     for (let x = 0; x < allLinks.length; x++) {
       allLinks[x].className = 'none';
     }
+    links.className = 'active';
   });
 }
 
